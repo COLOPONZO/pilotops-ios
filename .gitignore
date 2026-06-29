@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Xcode user settings
+xcuserdata/
+*.xcuserstate
+
+# DerivedData
+DerivedData/
+
+# Swift Package Manager
+.build/
+
+# CocoaPods
+Pods/
+
+# Apple Push Notification Keys
+*.p8
+
+# Certificates
+*.p12
+*.cer
+*.mobileprovision
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
