@@ -5,7 +5,7 @@ final class PushRegistrationService {
 
     private init() {}
 
-    private let serverURL = URL(string: "http://163.176.53.137:55050/register_device")!
+    private let serverURL = URL(string: "http://163.176.64.85:55050/register_device")!
 
     func registerDevice(practico: String, deviceToken: String) async {
         let cleanPractico = practico
